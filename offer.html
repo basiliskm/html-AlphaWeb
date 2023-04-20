@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alpha Web | Σχεδίαση Υπηρεσιών Διαδικτύου</title>
+	<meta name="description" content="Σχεδίαση Υστοσελίδων απο 280€! Κατασκευή WebPage, Portfolio, Eshop γρήγορα αξιόπιστα σε προσιτές τιμές.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+<!-------------------HEADER------------------------------>
+    <div class="header-form">
+    	<div class="container">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" width="200px" alt="Logo" class="center"></a>
+            	</div>
+		</div>
+			<div class="row">
+				<div class="column left">
+					<button class="messagebtn"><h1><i class="fa fa-check" aria-hidden="true">Μπες στον κόσμο του Διαδικτύου!</i></h1></button>
+					<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+					<button class="messagebtn msg"><h1><i class="fa fa-check" aria-hidden="true">Αναβάθμισε την επιχείρησή σου με αξιόπιστες και οικονομικές λύσεις!</i></h1></button>
+				</div>
+				<div class="column middle">
+					<div class= "form">
+						
+						<form action="registration.php" method = "post" onsubmit ="return signup()" enctype ="multipart/form-data">
+							<p>Συμπλήρωσε τα στοιχεία σου και ένας Εξειδικευμένος Σύμβουλος Online Προβολής θα επικοινωνήσει μαζί σου, για να συζητήσει τις ανάγκες της επιχείρησής σου.</p>
+							<label for="fname"><b>Ονοματεπώνυμο*</b></label><br>
+							<input type="text"  name = "first" id = "t1" required>
+							<br><br>
+							<label for="lname"><b>Επωνυμία Επιχείρησης*</b></label><br>
+							<input type="text"  name = "last" id = "t2" required>
+							<br><br>
+							<label for = "date"><b>Tηλέφωνο*</b></label>
+							<br>
+							<input type = "tel" id = "phone" pattern="[0-9]{10}" required>
+							<br><br>
+							<label for="email"><b>Email*</b></label><br>
+								<input type="email" name="email" id = "t3" required>
+							<br><br>
+							<h2>Επίλεξε από τα παρακάτω</h2><br>
+							<label class="check-container">Eικαστική παρουσίαση
+							  <input type="checkbox">
+							  <span class="checkmark"></span>
+							</label><br>
+							<label class="check-container">Επικοινωνία - Παραγγελίες
+							  <input type="checkbox">
+							  <span class="checkmark"></span>
+							</label><br>
+							<label class="check-container">E-Shop(Απλό)
+							  <input type="checkbox">
+							  <span class="checkmark"></span>
+							</label><br>
+							<label class="check-container">E-Shop(Extra)
+							  <input type="checkbox">
+							  <span class="checkmark"></span>
+							</label><br><br><br>
+							<label class="check-container"><h3>Πρόγραμμα Βασης Δεδομένων</h3>
+							  <input type="checkbox">
+							  <span class="checkmark"></span>
+							</label><br>
+							<label class="check-container">Διαχείριση Μισθοδοσίας
+							  <input type="checkbox">
+							  <span class="checkmark"></span>
+							</label><br>
+							<label class="check-container">Διαχείριση Πελατολογίου
+							  <input type="checkbox">
+							  <span class="checkmark"></span>
+							</label><br>
+							<label class="check-container">Διαχείριση Προϊόντων
+							  <input type="checkbox">
+							  <span class="checkmark"></span>
+							</label><br>
+							<label for="text"><b>Μήνυμα (Προαιρετικό)</b></label>
+                <input type="text" placeholder="Εισάγετε το Μήνυμά σας" name="Μήνυμα" class = "textarea" id = "t5">
+							<br><br>
+							<button type = "submit" class="button1">Αποστολή</button>	
+							<br><br>
+						</form>
+					</div>
+			</div> 
+				
+				<div class="column right">
+					<button class="messagebtn msg"><h1><i class="fa fa-check" aria-hidden="true">Κάνε την ζωή σου και την εξυπηρέτηση των πελατών σου πιο εύκολη!</i></h1></button>
+					<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+					<button class="messagebtn msg"><h1><i class="fa fa-check" aria-hidden="true">Ολες μας οι υπηρεσίες είναι φτιαγμένες στο χέρι, οχι σε έτοιμα προγράμματα, ακριβώς στα μέτρα και στις ανάγκες σου!</i></h1></button>
+				</div>
+				
+			
+			</div>
+
+	</div>
+
+	<!------------------------------------Footer-------------------------------------------------------------------------------------------------------------------->
+    <div class="footer">
+		<h2>Alpha Web</h2>
+		<br>
+		<h4>Υλοποιήση Εφαρμογών και Υπηρεσίων Διαδικτύου</h4>
+		<br>
+		<p>Since 2022<i class="fa fa-copyright" aria-hidden="true"></i></p>
+    </div>
+ <!-----------------------js code------------------->   
+
+	<script>
+
+var mybutton = document.getElementById("myBtn");
+var MenuItems = document.getElementById("MenuItems");
+
+window.onscroll = function() {scrollFunction()};
+MenuItems.style.maxHeight = "0px";
+    
+function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+    else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+}
+    
+function scrollFunction() {
+  if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>	
+
+	
+	
+</body>
+</html>
